@@ -1,4 +1,4 @@
-//importando el modelo de estudiante
+//importando el modelo de broma
 const { db } = require("../models/chiste.model");
 const Broma = require("../models/chiste.model"); //no se coloca el .js
 
