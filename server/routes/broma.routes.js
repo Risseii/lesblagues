@@ -2,7 +2,7 @@
 const BromaController = require("../controllers/broma.controller"); //importo controller
 
 module.exports = app => {
-    app.get("/api/jokes/", BromaController.findAllBromas); //es una callback, no se coloca ()
+    app.get("/api/jokes/", BromaController.findAllBromas);
     app.get("/api/jokes/random",BromaController.findOneRandom);
     app.get("/api/jokes/:id",BromaController.findOneBroma);
     app.post("/api/jokes/new",BromaController.createBroma);
